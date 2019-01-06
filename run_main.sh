@@ -12,7 +12,7 @@ comment='~~'
 dataset='WN18'                          # WN18RR, FB15k, FB15k-237
 
 # Model
-ent_func='Sigmoid()'                     # Sigmoid(), ReLU(), identity
+ent_func='identity'                     # Sigmoid(), ReLU(), identity
 model='DistMult'                        # DistMult, Analogy, Complex
 dimensions='200'
 
