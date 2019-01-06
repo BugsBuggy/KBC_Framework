@@ -22,7 +22,7 @@ You can use **PyTorch** for the following components:
 
 **Initialization methods:** Choose from [torch.nn.init](https://pytorch.org/docs/stable/nn.html#torch-nn-init), for example set ```init='uniform_({embs},-0.01,0.01)'``` 
 
-**Loss function:** The loss function is currently in the config class in ```config.py```. You can choose from [torch.nn](https://pytorch.org/docs/stable/nn.html), for example set ```criterion = 'nn.BCEWithLogitsLoss()``` in ```config.py```. See 'Adding and hiding variables' to move it to the run scripts.
+**Loss function:** The loss function is currently in the config class in ```config.py```. You can choose from [torch.nn](https://pytorch.org/docs/stable/nn.html), for example set ```criterion = 'nn.BCEWithLogitsLoss()'``` in ```config.py```. See 'Adding and hiding variables' to move it to the run scripts.
 You can also implement your [own components](#add_components).
 
 If you made all settings, run the script ```run_main.sh```.
